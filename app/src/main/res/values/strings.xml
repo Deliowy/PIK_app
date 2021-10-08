@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Black Box Mobile</string>
+    <string name="website_address">http://hammet21.pythonanywhere.com</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short and/or contains prohibited symbols</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <!-- Strings related to apartment -->
+    <string name="title_activity_main">MainActivity</string>
+    <string name="test_apartment">This tests change of activity</string>
+    <string name="test_apartment_label">S1, д.1, кв.1 \n Завершена на: 10%</string>
+    <string name="test_apartment_img">Layout of the apartment</string>
+    <!-- Strings related to settings -->
+    <string name="action_settings">Settings</string>
+    <string name="settings_alert_message">There is no settings to change at the moment</string>
+    <!-- Strings related to apartment list -->
+    <string name="title_activity_apartment_list">Apartment List</string>
+    <string name="search_field_text">Search Hint</string>
+    <string name="search_field_label_street">Street</string>
+    <string name="search_field_label_building">Building</string>
+    <string name="search_field_label_apartment">Apartment</string>
+    <string name="search_button">Search</string>
+    <!-- Strings related to raport -->
+    <string name="action_make_raport">Raport</string>
+    <string name="title_activity_raport">Raport Activity</string>
+    <string name="action_send_raport">Send Raport</string>
+    <string name="raport_permission_rationale">Storage permissions are needed for creating raports and requests.</string>
+    <!-- String related to request -->
+    <string name="title_activity_request">Request Activity</string>
+    <string name="action_send_request">Send Request</string>
+    <string name="request_text_field_hint">Запрос на склад</string>
+    <string name="scan_process_label">Scanning...</string>
+    <string name="scan_result_label">Last scan result:</string>
+</resources>

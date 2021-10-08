@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".ApartmentListActivity"
+        tools:showIn="@layout/activity_apartment_list">
+
+    <android.support.v7.widget.RecyclerView
+            android:id="@+id/apartment_list"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:scrollbarThumbVertical="@mipmap/searchfield_thumb_vertic"
+            android:scrollbarTrackVertical="@mipmap/searchfield_track_vertic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed"
+            tools:listitem="@layout/apartment_list_recycler_view_item" />
+
+</android.support.constraint.ConstraintLayout>
